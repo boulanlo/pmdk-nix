@@ -1,2 +1,4 @@
-# PMDK as a Nix flake
-This is a flake that builds the [PMDK library](https://github.com/pmem/pmdk). Still probably a WIP, especially with the ugly bash script patch.
+# Various PMEM libraries, as Nix Flakes
+The following libraries are included:
+- [PMDK](https://github.com/pmem/pmdk): a persistent memory development kit
+- [vmemlib](https://github.com/pmem/vmem): a library for volatile memory allocation
