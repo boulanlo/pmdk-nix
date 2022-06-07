@@ -41,7 +41,7 @@
 
               installPhase = ''
                 mkdir -p $out/
-                make install DESTDIR=$out
+                make install prefix=$out
               '';
             };
         };
